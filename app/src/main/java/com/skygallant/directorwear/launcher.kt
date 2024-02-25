@@ -165,5 +165,6 @@ class WebActivity : Activity() {
             val toast = Toast.makeText(this, text, duration)
             toast.show()
         }
+        finish()
     }
 }

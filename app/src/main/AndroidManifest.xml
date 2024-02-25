@@ -37,7 +37,9 @@
 
         <activity android:name=".WebActivity"
             android:exported="true"
-            android:taskAffinity="com.skygallant.directorwear">
+            android:taskAffinity="com.skygallant.directorwear"
+            android:excludeFromRecents="true"
+            android:noHistory="true">
         </activity>
 
     </application>
